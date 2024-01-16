@@ -25,13 +25,13 @@ class _MyHomePageState extends State<MyHomePage> {
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        elevation: 0, // Remove app bar elevation
+        elevation: 0, 
         actions: [
           IconButton(
             onPressed: () {
-              // Add any action you want here
+          
             },
-            icon: const Icon(Icons.settings), // Example: Settings icon
+            icon: const Icon(Icons.settings), 
           ),
         ],
         systemOverlayStyle: const SystemUiOverlayStyle(
